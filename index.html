@@ -1,110 +1,180 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
-   <link rel="stylesheet" type="text/css" href="style.css">
-</head>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="myicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <title>Дипломная работа</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+        .part {
+            width: 48%;
+            padding: 20px;
+            border: 1px solid #ccc;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+            border-radius: 8px;
+        }
+        .rainbow-text {
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+        .rainbow-text span {
+            display: inline-block;
+            margin: 0 2px;
+        }
+        h2, h3 {
+            color: #333;
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .demo {
+            background-color: #f9f9f9;
+            padding: 10px;
+            border: 1px solid #ddd;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
 <body>
-<input type="date" tabindex="1">
-Выбор даты
-<input type="time" tabindex="2">
-Выбор времени
-<input type="month" tabindex="3">
-Выбор месяца года
-<input type="week" tabindex="4">
-Выбор недели месяца
-  
-  
-<select name="icecream" size="7" multiple> 
-<optgroup label="Традиционные">
-<option selected="selected">>Молочное</option>
-<option disabled>Шоколадное</option>
-</optgroup>
-<optgroup label="Вкусы дня">
-<option>Cynep пpaлинe</option> 
-<option selected="selected">>Opexoвый сюрприз</option> 
-<option>Малиновое</option>
-</optgroup>
-</select>
+    <header>
+        <div class="rainbow-text">
+            <span>Д</span><span>и</span><span>п</span><span>л</span><span>о</span><span>м</span><span>н</span><span>а</span><span>я&nbsp;</span>
+            <span>р</span><span>а</span><span>б</span><span>о</span><span>т</span><span>а&nbsp;</span>
+            <span>П</span><span>о</span><span>п</span><span>е</span><span>л</span><span>ю</span><span>х</span><span>а&nbsp;</span>
+            <span>И</span><span>в</span><span>а</span><span>н</span><span>а</span>
+        </div>
+    </header>
 
-   <select name="где учиться" size="7" multiple> 
-<optgroup label="школа">
-<option selected="selected">>лицей</option>
-<option disabled>гимназия</option>
-</optgroup>
-<optgroup label="">
-<option>Cynep пpaлинe</option> 
-<option selected="selected">>Opexoвый сюрприз</option> 
-<option>Малиновое</option>
-</optgroup>
-</select>
-  
-<p>Образование полное: <input type="text" 
-list="edulevel" name="education">
-<datalist id = "edulevel" >
-<option value="Среднее">
-<option value="Средне специальное"> 
-<option value="Bысшее">
-</datalist>
-  
-  <input type="image" value="Сделать" src=""> <br>
-<input type="button" value="1" name="butt">
+    <div class="container">
+        <div class="part">
+            <h2>Ресурсы и инструменты</h2>
+            <ul>
+                <li><a href="https://www.figma.com/design/30GR9UqHbv3Ki7BLWls5OB/Untitled?node-id=2-2&node-type=canvas&t=dGbIebL2qLKcvZ8J-0/">Figma</a></li>
+                <li><a href="https://www.bitrix24.ru/?login=yes">Битрикс</a></li>
+                <li><a href="http://illustrators.ru/jobs">Вакансии и заказы</a></li>
+                <li><a href="http://www.kadrof.ru/work/cat10">Удалёнка для дизайнеров</a></li>
+                <li><a href="https://render.ru/vacancy/vacancy.php">Сайт с вакансиями</a></li>
+                <li><a href="https://www.behance.net/joblist">Раздел с вакансиями</a></li>
+                <li><a href="https://vc.ru/job">Вакансии для дизайнеров</a></li>
+                <li><a href="https://designer.ru/t/">Вакансии для удалёнки</a></li>
+                <li><a href="https://99designs.com/">99designs</a></li>
+                <li><a href="https://godesigner.ru/">GoDesigner</a></li>
+                <li><a href="http://designnews.ru/">DesignNews</a></li>
+                <li><a href="https://yandex.ru/uslugi/">Лента заказов</a></li>
+                <li><a href="https://kwork.ru/ref/2794">Kwork</a></li>
+                <li><a href="https://www.fl.ru/?ref=10833">FL.ru</a></li>
+                <li><a href="https://www.upwork.com/">Upwork</a></li>
+                <li><a href="https://www.fiverr.com/">Fiverr</a></li>
+                <li><a href="https://rubrain.com/">Rubrain</a></li>
+                <li><a href="ivan3514.github.io/control/">Визитка</a></li>
+                <li><a href="https://html-css-js.com/">Помощь по HTML/CSS/JS</a></li>
+                <li><a href="https://colorscheme.ru/">Генератор цветов</a></li>
+                <li><a href="https://dewiar.com/">Помощь 2</a></li>
+                <li><a href="https://fusionbrain.ai/">Нейросеть</a></li>
+                <li><a href="https://onlinetestpad.com/onlzdlhutl3do">Создание теста</a></li>
+            </ul>
+        </div>
 
-<fieldset>
-  
- 
-<p>
-  <label>Официальная заявка на конкурс:<br>
-<em>Расскажите нам, за что вы любите эту группу. Пятеро победителей получат пропуск за кулисы!</em><br>
-<textarea name="contest_entry" rows="5" cols="50">ЭTa группа 
-  просто потрясающая! </textarea></label></p>
-<p><label>Официальная заявка на конкурс:<br>
-  <em>Расскажите нам, за что вы любите эту группу. Пятеро победителей получат пропуск за кулисы!</em><br></label> 
-<textarea name="contest_entry" placeholder="150 words or
-less">
-</textarea>
-  </p>
-  
-  
-<Legend>Подписка на рассылку</Legend>
-<ul>
+        <div class="part">
+            <h2>О проекте</h2>
+            <div id="demotext">
+                <h3>Привет, сегодня я научу вас работать в HTML.</h3>
+                <p>Чтобы начать работать в HTML, его сначала нужно включить.</p>
+                <div class="demo">
+                    <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="ru"&gt;
+&lt;head&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+                    </pre>
+                </div>
+                <p>Хорошо, HTML мы включили, теперь надо в нём начать работать.</p>
+                <p>В &lt;head&gt; можно написать название сайта с помощью тега &lt;title&gt;.</p>
+                <p>В &lt;body&gt; находится основное содержимое нашего сайта. Также чтобы написанный текст смотрелся красивее, нужно использовать теги.</p>
+                <p>Тег &lt;p&gt; создаёт параграф, тег &lt;h1&gt; создаёт заголовки, если же написать &lt;h2&gt;, &lt;h3&gt;, то будут создаваться подзаголовки.</p>
+                <div class="demo">
+                    <pre>
+&lt;head&gt;
+    &lt;title&gt;Мой сайт&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;&lt;p&gt;Сайт&lt;/p&gt;&lt;/h1&gt;
+    &lt;h3&gt;&lt;p&gt;Сайт&lt;/p&gt;&lt;/h3&gt;
+&lt;/body&gt;
+                    </pre>
+                </div>
+                <p>Также в HTML можно отцентрировать текст с помощью тега &lt;center&gt;. Чтобы текст отцентрировался, нужно заменить тег &lt;p&gt; на &lt;center&gt;.</p>
+                <div class="demo">
+                    <pre>
+&lt;body&gt;
+    &lt;center&gt;Этот текст отцентрирован&lt;/center&gt;
+&lt;/body&gt;
+                    </pre>
+                </div>
+                <p>Ещё в &lt;body&gt; можно сделать рабочие ссылки. Для этого используется тег &lt;a&gt;.</p>
+                <div class="demo">
+                    <pre>
+&lt;p&gt;&lt;a href="https://example.com"&gt;Пример ссылки&lt;/a&gt;&lt;/p&gt;
+                    </pre>
+                </div>
+                <p>В кавычки нужно вставить саму ссылку, а перед концом ссылки (&lt;/a&gt;) нужно написать название ссылки, то есть как оно будет отображаться на странице сайта.</p>
+                <p>Заключать ссылку в тег &lt;p&gt; нужно, чтобы ссылка была видна.</p>
+                <p>В HTML можно сделать текст подчёркнутым, используя тег &lt;u&gt;.</p>
+                <div class="demo">
+                    <pre>
+&lt;center&gt;&lt;u&gt;Этот текст подчёркнут&lt;/u&gt;&lt;/center&gt;
+                    </pre>
+                </div>
+                <p>Чтобы в HTML было легче работать, я оставил ссылки на полезные сайты.</p>
+                <img src="gif1.gif" alt="Пример GIF">
+            </div>
+        </div>
+    </div>
 
-<li><label>Включите меня в список paccылки<input type="radio" name="list" value="yes" checked="checked"></label></li>
-<li><label>Выключите меня в список paccылки<input type="radio" name="list" value="yes" checked="checked"></label></li>
-<li><label>Выключите меня в список paccылки<input type="radio" name="list" value="yes" checked="checked"></label></li>
-
-  <li><label>Спасибо, не надо <input type="radion name="list” 
-value="no"> </label></li>
-</ul>
-</fieldset>
-
-<fieldset>
-<legend>Информация о подписчике</legend>
- 
-  <label for="fio">NickName:</label>
-  <hr>
-  <input type="text" name="fio" id="fio" placeholder="NickName" required accesskey="n"> »> <label>Parole<input type="password" name="pswd" maxlength="8" id="formpswd"/></label>
-  
-  <label>Поле поиска<input type="search"></label>
-  <label>Номер телефона<input type="tel"></label>
-  <label>Адрес Веб<input type="url"></label>
-  
-  
- <ol> 
-<li><label>Полное имя: <input type="text" name="name" maxlength="5"></label></li>
-  <li><label for="email">Email:</label> 
-    <input type="text" name="email" id="email" accesskey="y" required></li>
-<li><label>Город: <input type="text" name="statenx"></label></li>
- 
-  <li><label>Age: <input type="number" name="cnumx" min="1" max="100"></label></li>
-  <li><label>decimal: <input type="range" name="decimalx" min="1" max="100" step="10"></label></li>
-  <li><label>progress: <input type="progress" name="progressx"></label></li> 
-    <li><label>meter: <input type="meter" name="meterx"></label></li> 
-  <li><label>checkbox1: <input type="checkbox" name="checkboxx"></label></li> 
-  <li><label>checkbox2: <input type="checkbox" name="checkboxx"></label></li> 
-  <li><label>Цвет: <input type="color" name="colorx"</label></li>
-  </ol>
-  <input type="date" namе="имя" valuе="2013-01-14">
-  <input type="submit"><input type="reset">
-  </fieldset></р>
+    <footer>
+        <p>&copy; 2023 Дипломная работа Попелюха Ивана. Все права защищены.</p>
+    </footer>
 </body>
 </html>
